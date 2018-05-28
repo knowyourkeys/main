@@ -24,4 +24,7 @@ Radu CERNAIANU -> chiffrement
 IV)	Objectifs du prototype initial
 Ce qui est important d’évoqué est que l’interface graphique va jouer un rôle important dans le fait qu’elle doit être intuitive et très performante pour permettre à l’utilisateur de l’utiliser facilement. Il faudrait aussi pouvoir avoir déjà jusque là avoir réussi à trouver une méthode de chiffrement et savoir l’appliquer.
 
+V) Résultats
+	Nous avons donc réalisé la majorité des fonctionnalités que nous avons décidé de faire, malheureusement nous n’avons pas pu faire l’extension chrome. Nous avons rencontré quelques difficultés durant la réalisation de ce projet, notamment dû à l’utilisation des différentes librairies. Nous avons rencontré des problèmes de compatibilité entre Qt, le logiciel que nous avons utilisé pour l’interface, et la librairie Crypto++ que nous avons utilisé pour le chiffrement. Nous avons trouvé une solution à ce problème en utilisant un fichier temporaire pour communiquer entre les deux programmes. En ce qui concerne l’extension, un problème majeur est apparu. L’utilisation de l’extension aurait forcé l’information chiffrée. Or notre projet se reliant majoritairement sur le chiffrement de données, nous aurions dû recréer le système de chiffrage et déchiffrage sur l’application donc en JavaScript/HTML5. Du coup cela revenait à refaire notre projet en Js sans l’interface. L’idée a donc été abandonnée après une vive introduction aux extensions (manifest.json, background scripts,etc…).
+
 
